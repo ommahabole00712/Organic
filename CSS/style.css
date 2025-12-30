@@ -4,12 +4,12 @@
     padding: 0;
 }
 header{
-    position: fixed;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
     width: 100%;
-    background-color: white;
-    color: black;
-    z-index: 99;
+    background-color: rgb(235, 212, 11);
+    color: rgb(224, 7, 7);
+    /* z-index: 99; */
 }
 #container{
     width: 100%;
