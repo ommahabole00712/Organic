@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    z-index: 99;
+}
+#container{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#navigation{
+    display: none;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#herosection{
+    width: 100%;
+}
+#herosection div{
+    width: 100%;
+}
+#herosection div img{
+    width: 100%;
+}
+#product,#booster,#tulsi,#parent,#healthy,footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#tulsi{
+    align-items: center;
+}
+.product_child{
+    width: 30%;
+    font-size: 15px;
+    text-align: center;
+}
+.product_child img{
+    width: 100%;
+}
+#booster{
+    margin: 70px 0px;
+}
+
+#buniq{
+    width: 100%;
+    text-align: center;
+}
+.booster-child{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid blue;
+    padding: 10px 0px;
+    box-shadow: 5px 5px 5px grey;
+}
+.booster-child img{
+    width: 100%;
+}
+.tulsi-child{
+    width: 100%;
+    margin: 10px;
+}
+.tulsi-child img{
+    width: 100%;
+}
+#parent{
+    align-items: center;
+}
+.puniq{
+    width: 100%;
+    text-align: center;
+}
+.imgchild{
+    width: 16%;
+    margin: 5px;
+}
+.imgchild img{
+    width: 100%;
+}
+.txtchild{
+    width: 75%;
+    margin: 5px;
+}
+.h-child{
+    width: 100%;
+    margin: 10px;
+}
+.h-child img{
+    width: 100%;
+}
+
+#review{
+    background-image: url(https://organicindia.com/cdn/shop/files/1920-X-830-testimonial.png?v=1666267004);
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#review div{
+    width: 100%;
+    text-align: center;
+}
+.ft-child{
+    width: 100%;
+    text-align: center;
+    border: 1px solid red;
+    margin: 10px;
+}
+#ft-u{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: orangered;
+    color: white;
+}
+
+@media only screen and (min-width:768px){
+
+
+       .booster-child{
+    width: 30%;
+    
+}
+
+.tulsi-child{
+    width: 47%;
+}
+#shape{
+    clip-path: polygon(20% 0%, 80% 0%, 62% 99%, 0% 100%);
+}
+
+.h-child{
+    width: 47%;
+}
+#review div{
+    width: 80%;
+}
+.ft-child{
+    width:47%;
+  
+}
+}
+
+@media only screen and (min-width:1200px){
+    #navigation{
+    display: block;
+}
+#menubar{
+    display: none;
+}
+#flexible{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+#flexible li{
+    margin: 0px 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.product_child{
+    width: 23%;
+}
+.product_child img{
+    width: 80%;
+}
+.booster-child{
+    width: 18%;
+    
+}
+#shape{
+   clip-path: circle(50% at 50% 50%);
+}
+.tulsi-child img{
+    width: 80%;
+}
+
+.ft-child{
+    width:23%;
+  
+}
+
+}
